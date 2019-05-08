@@ -2,7 +2,7 @@
 
 Repository of the custom TOSCA types for modelling, analysing and refactoring service-based architectures.
 
-The latest version of microTOSCA types is available at https://di-unipi-socc.github.io/microTOSCA/microTOSCA.yml. 
+The latest version of microTOSCA types is available at [https://di-unipi-socc.github.io/microTOSCA/microTOSCA.yml](https://di-unipi-socc.github.io/microTOSCA/microTOSCA.yml). 
 To use it in a TOSCA application specification, just add
 ```
 - microTOSCA: https://di-unipi-socc.github.io/microTOSCA/microTOSCA.yaml
