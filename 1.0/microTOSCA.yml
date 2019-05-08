@@ -78,3 +78,6 @@ node_types:
 
   micro.nodes.MessageRouter:
     derived_from: micro.nodes.CommunicationPattern
+
+  micro.nodes.ServiceDiscovery:
+    derived_from: micro.nodes.CommunicationPattern
