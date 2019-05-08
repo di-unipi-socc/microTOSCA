@@ -5,10 +5,10 @@ Repository of the custom TOSCA types for modelling, analysing and refactoring se
 The latest version of microTOSCA types is available at https://di-unipi-socc.github.io/microTOSCA/microTOSCA.yml. 
 To use it in a TOSCA application specification, just add
 ```
-- tosker: https://di-unipi-socc.github.io/tosker-types/tosker.yaml
+- microTOSCA: https://di-unipi-socc.github.io/microTOSCA/microTOSCA.yaml
 ```
 to the `imports` in the specification.
 
-All versions of microTOSCA types are available at `https://di-unipi-socc.github.io/tosker-types/<version>/tosker.yaml`. 
+All versions of microTOSCA types are available at `https://di-unipi-socc.github.io/microTOSCA/<version>/microTOSCA.yaml`. 
 The currently available versions are the following:
-- [1.0](https://di-unipi-socc.github.io/tosker-types/1.0/tosker.yaml)
+- [1.0](https://di-unipi-socc.github.io/microTOSCA/1.0/microTOSCA.yaml)
