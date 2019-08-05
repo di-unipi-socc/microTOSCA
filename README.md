@@ -11,6 +11,6 @@ to the `imports` in the specification.
 
 All versions of microTOSCA types are available at `https://di-unipi-socc.github.io/microTOSCA/<version>/microTOSCA.yaml`. 
 The currently available versions are the following:
-- [1.0](https://di-unipi-socc.github.io/microTOSCA/1.0/microTOSCA.yaml)
-- [1.1](https://di-unipi-socc.github.io/microTOSCA/1.1/microTOSCA.yaml)
-- [1.2](https://di-unipi-socc.github.io/microTOSCA/1.2/microTOSCA.yaml)
+- [1.0](https://raw.githubusercontent.com/di-unipi-socc/microTOSCA/master/1.0/microTOSCA.yaml)
+- [1.1](https://raw.githubusercontent.com/di-unipi-socc/microTOSCA/master/1.1/microTOSCA.yaml)
+- [1.2](https://raw.githubusercontent.com/di-unipi-socc/microTOSCA/master/1.2/microTOSCA.yaml)
