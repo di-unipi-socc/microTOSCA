@@ -14,7 +14,7 @@ group_types:
   # group type for defining the Edge of an architecture
   micro.groups.Edge:
     derived_from: micro.groups.Root
-    members: [ micro.nodes.Service, micro.nodes.CommunicationPattern ] # data stores cannot be in edge
+    members: [ micro.nodes.Service, micro.nodes.CommunicationPattern ] # databases cannot be in edge
 
 relationship_types:
   micro.relationships.Root:
@@ -58,13 +58,13 @@ node_types:
   micro.nodes.CommunicationPattern:
     derived_from: micro.nodes.Root
 
-  # node type for representing data stores
-  micro.nodes.DataStore:
+  # node type for representing databases
+  micro.nodes.Database:
     derived_from: micro.nodes.Root
     capabilities:
       feature:
         type: tosca.capabilities.Node
-        valid_source_types: [ micro.nodes.Service ] # communication patterns cannot interact with data stores
+        valid_source_types: [ micro.nodes.Service ] # communication patterns cannot interact with databases
         occurrences: [ 0, UNBOUNDED ]
 
   #  Type of CommunicationPatterns

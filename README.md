@@ -13,3 +13,4 @@ All versions of microTOSCA types are available at `https://di-unipi-socc.github.
 The currently available versions are the following:
 - [1.0](https://di-unipi-socc.github.io/microTOSCA/1.0/microTOSCA.yaml)
 - [1.1](https://di-unipi-socc.github.io/microTOSCA/1.1/microTOSCA.yaml)
+- [1.2](https://di-unipi-socc.github.io/microTOSCA/1.2/microTOSCA.yaml)
