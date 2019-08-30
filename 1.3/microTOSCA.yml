@@ -1,6 +1,6 @@
 tosca_definitions_version: tosca_simple_yaml_1_0
 
-description: Definition of the custom types of Micro TOSCA model
+description: Definition of the custom types of Micro TOSCA model 
 
 group_types:
   micro.groups.Root:
@@ -34,6 +34,7 @@ relationship_types:
       timeout:  # is a timeout set?
         type: boolean
         default: false
+
 node_types:
   micro.nodes.Root:
     derived_from: tosca.nodes.Root
@@ -78,12 +79,3 @@ node_types:
           occurrences: [ 1, UNBOUNDED ] # at least one (outgoing) interaction
           node: micro.nodes.Root
           relationship: micro.relationships.InteractsWith
-
-  micro.nodes.MessageRouter.KIngress:
-    derived_from: micro.nodes.MessageRouter
-  
-  micro.nodes.MessageRouter.KService:
-    derived_from: micro.nodes.MessageRouter
-
-  micro.nodes.MessageRouter.Kproxy:
-    derived_from: micro.nodes.MessageRouter
