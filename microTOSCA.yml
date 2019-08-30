@@ -85,5 +85,5 @@ node_types:
   micro.nodes.MessageRouter.KService:
     derived_from: micro.nodes.MessageRouter
 
-  micro.nodes.MessageRouter.Kproxy:
+  micro.nodes.MessageRouter.KProxy:
     derived_from: micro.nodes.MessageRouter
