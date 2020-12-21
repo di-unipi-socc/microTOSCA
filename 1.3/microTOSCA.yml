@@ -73,12 +73,6 @@ node_types:
   micro.nodes.MessageBroker:
     derived_from: micro.nodes.CommunicationPattern
 
-  micro.nodes.AsynchronousMessageBroker:
-    derived_from: micro.nodes.MessageBroker
-
-  micro.nodes.SynchronousMessageBroker:
-    derived_from: micro.nodes.MessageBroker
-   
   micro.nodes.MessageRouter:
     derived_from: micro.nodes.CommunicationPattern
     requirements:

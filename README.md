@@ -14,3 +14,4 @@ The currently available versions are the following:
 - [1.0](https://raw.githubusercontent.com/di-unipi-socc/microTOSCA/master/1.0/microTOSCA.yml)
 - [1.1](https://raw.githubusercontent.com/di-unipi-socc/microTOSCA/master/1.1/microTOSCA.yml)
 - [1.2](https://raw.githubusercontent.com/di-unipi-socc/microTOSCA/master/1.2/microTOSCA.yml)
+- [1.3](https://raw.githubusercontent.com/di-unipi-socc/microTOSCA/master/1.3/microTOSCA.yml)
