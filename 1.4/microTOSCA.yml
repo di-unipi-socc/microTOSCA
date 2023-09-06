@@ -35,7 +35,7 @@ relationship_types:
         type: boolean
         default: false
 
-  # relationship type for modelling interactions
+  # relationship type for modelling the deployment over a processing unit
   micro.relationships.DeployedOn:
     derived_from: micro.relationships.Root
     valid_target_types: [ micro.nodes.Compute ]
