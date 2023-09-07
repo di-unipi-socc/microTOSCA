@@ -1,4 +1,4 @@
-tosca_definitions_version: tosca_simple_yaml_1_3
+tosca_definitions_version: tosca_simple_yaml_1_4
 
 description: Definition of the custom types of Micro TOSCA model
 
@@ -35,6 +35,11 @@ relationship_types:
         type: boolean
         default: false
 
+  # relationship type for modelling the deployment over a processing unit
+  micro.relationships.DeployedOn:
+    derived_from: micro.relationships.Root
+    valid_target_types: [ micro.nodes.Compute ]
+
 capability_types:
   micro.capabilities.Node:
     derived_from: tosca.capabilities.Node
@@ -59,7 +64,7 @@ node_types:
           
   # node type for representing computing units
   micro.nodes.Compute:
-    derived_from: micro.nodes.Service
+    derived_from: micro.nodes.Root
     
 
   # node type for representing communication patterns
